@@ -16,6 +16,7 @@ gem "bootsnap", "~> 1.3"
 gem "puma", ">= 6.3.1"
 
 gem "wicked_pdf", "~> 2.1"
+gem "fog-aws"
 
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
