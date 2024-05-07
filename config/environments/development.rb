@@ -32,6 +32,7 @@ Rails.application.configure do
 
   # Specify active_job sidekiq adapter
   config.active_job.queue_adapter = :sidekiq
+  config.hosts = ["www.maliforoba.com", "maliforoba.com"]
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
